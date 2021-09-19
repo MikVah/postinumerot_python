@@ -19,7 +19,11 @@ def test_juupajoki():
     tulos = postinumerot.postinumerot['35540']
     assert tulos == 'JUUPAJOKI'
 
+<<<<<<< HEAD
 #def test_oma_data_muuruvesi(mocker):
+=======
+# def test_oma_data_muuruvesi(mocker):
+>>>>>>> refs/remotes/origin/master
 #    oma_data = TOIMIPAIKAT
 #    mocker.patch('http_request.hae_postinumerot', return_value=oma_data)
 #    tulos = postinumerot.postinumerot['73460']
